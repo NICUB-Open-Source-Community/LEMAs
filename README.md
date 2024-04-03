@@ -3,7 +3,7 @@
 Welcome!
 
 ***LEMAs*** is a conversational e-learning app.  
-It is a platform for Conversational Learning Application, where teachers can monitor individual learner progress and engage with the learners in a chat through the platform, as well as launch class-wide campaigns, amongst other application. LEMAs is a form of digital learning that focuses on delivering a learning experience as simple as having a conversation, simultaneously providing a richer and more learner-centred experience compared to traditional eLearning experiences.
+It is a platform for Conversational Learning Application, where teachers can monitor individual learner progress and engage with the learners in a chat through the platform, as well as launch class-wide campaigns, amongst other application. LEMAs is a form of digital learning that focuses on delivering a learning experience as simple as having a conversation, simultaneously providing a richer and more learner-centered experience compared to traditional eLearning experiences.
 
 ## Techonologies 
 * Frontend - JavaScript
