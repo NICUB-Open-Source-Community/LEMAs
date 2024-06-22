@@ -5,13 +5,13 @@ Welcome!
 ***LEMAs*** is a conversational e-learning app.  
 It is a platform for Conversational Learning Application, where teachers can monitor individual learner progress and engage with the learners in a chat through the platform, as well as launch class-wide campaigns, amongst other application. LEMAs is a form of digital learning that focuses on delivering a learning experience as simple as having a conversation, simultaneously providing a richer and more learner-centered experience compared to traditional eLearning experiences.
 
-## Techonologies 
+## Technologies 
 * Frontend - JavaScript
 * Backend - Nodejs
 * Database - Relatuve database
 * Deployment env - AWS
 
-## How to contributing to this project:
+## How to contribute to this project:
 To get it up and running on your local machine, follow the steps below:
 - Clone the repo with the command `git clone`
 - Pick an issue from the trello
