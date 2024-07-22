@@ -40,3 +40,31 @@ $ git push -u origin my-new-branch
 6. Submit pull request.
 At this point, you are waiting on our response. We like to atleast comment on pull requests within three business days, (and, typically, one business day). Once one of our maintainer(s) have/has had a chance to review your PR, we will either mark it as "needs review" and provide specific feedback on your changes, or we will go ahead and complete the pull request.
 
+## Signing-off on Commits
+To contribute to this project, you must agree to the Developer Certificate of Origin by the CHAOSS charter for each commit you make. The DCO is a simple statement that you, as a contributor, have the legal right to make the contribution. To signify that you agree to the DCO for contributions, you simply add a line to each of your git commit messages:
+Signed-off-by: Jane Smith <jane.smith@example.com>
+
+This can be easily done by using the -s flag when using git commit. For example:
+$ git commit -s -m "my commit message w/signoff"
+
+To ensure all your commits are signed, you have to configure git properly by editing your global .gitconfig
+```
+$ git config --global user.name "John Doe" 
+$ git config --global user.email johndoe@example.com
+```
+
+Any pull requests containing commits that are not signed off will not be eligible for merge until the commits have been signed off.
+
+# Technical Resources
+## Git & GitHub
+- [How to contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- [GitHub's "Hello World" tutorial](https://guides.github.com/activities/hello-world/)
+- [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+- [Commit message style guidelines](https://commit.style/)
+- [No-nonsense Git reference](https://rogerdudler.github.io/git-guide/) (best to have a cursory understanding of Git before hand)
+- [A Complete Guide to DCO for Open Source Developers](https://www.secondstate.io/articles/dco/)
+
+## Testing
+- [Official Jest documentation](https://jestjs.io/docs/getting-started)
+- [Jest Tutorial for Beginners](https://www.valentinog.com/blog/jest/)
