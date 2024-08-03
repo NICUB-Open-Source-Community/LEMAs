@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function SignUp() {
-  return (
-	<div>SignUp</div>
-  )
+  return <div className="py-6 text-xs">SignUp</div>;
 }
 
-export default SignUp
+export default SignUp;
