@@ -8,13 +8,13 @@ import { IoMdEye } from 'react-icons/io'
 
 export function SignUp() {
   return (
-    <div className="">
-      <div className="signup-container">
-        <h1 className="font-sans text-5xl my-14">LEMAs App</h1>
+    <div className="w-full h-screen bg-[#e9edf4] flex justify-center items-center">
+      <div className="signup-container bg-white border p-11 w-[34rem] h-[38rem] rounded-2xl">
+        <h1 className="font-sans text-5xl my-14 font-bold">LEMAs App</h1>
         <form action="">
-          <div className="max-w-md">
+          <div className="">
             <TextInput
-              className=""
+              className="svg-black"
               id="fullname"
               type="fullname"
               rightIcon={IoMdContact}
@@ -40,20 +40,20 @@ export function SignUp() {
             />
             <TextInput className="mt-1" id="city" type="city" rightIcon={IoMdEye} placeholder="Password" required />
             <TextInput
-              className="mt-1"
+              className="mt-1 w-full"
               id="city"
               type="city"
-              rightIcon={MdOutlineLocationOn}
+              rightIcon={IoMdEye}
               placeholder="Confirm Password"
               required
             />
           </div>
-          <Button className="my-1" type="submit">
+          <button className="my-1 bordertext-center w-full bg-[#0E2129] text-white rounded-lg h-14" type="submit">
             Register
-          </Button>
-          <div className="mt-6">
-            <p className='text-base'>
-              Already have an account? <a href="">Sign In</a>
+          </button>
+          <div className="my-6 pb">
+            <p className="text-base">
+              Already have an account? <a href="" className='font-bold'>Sign In</a>
             </p>
           </div>
         </form>
