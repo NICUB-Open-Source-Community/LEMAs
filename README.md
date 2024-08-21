@@ -8,7 +8,7 @@ It is a platform for Conversational Learning Application, where teachers can mon
 ## Technologies 
 * Frontend - JavaScript
 * Backend - Nodejs
-* Database - Relatuve database
+* Database - Relational database
 * Deployment env - AWS
 
 ## How to contribute to this project:
@@ -22,13 +22,13 @@ To get it up and running on your local machine, follow the steps below:
 - Work and push to the main branch
   
 ##### Frontend
-- Navigate to the frontend directory with the command `cd frontend`
+- Navigate to the frontend directory with the command `cd lemas`
 - Install all the dependencies with the command `npm install`
 - Start the app with the command `npm run dev`
 - Navigate to the app on your browser with the url `http://localhost:****` where **** is the port number displayed on your terminal.
 
 ##### Backend
-- Navigate to the frontend directory with the command `cd backend`
+- Navigate to the frontend directory with the command `cd lemas_backend`
 - Install all the dependencies with the command `npm install`
 - Start the app with the command `npm run start`
 - Before  you commit and push your changes, lock down dependency versions for production environment ....
